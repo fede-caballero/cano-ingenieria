@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cano-ingenieria.com.ar/sitemap.xml

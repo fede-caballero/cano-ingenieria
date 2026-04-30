@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de obras e instalaciones de Cano Ingeniería. Clientes que confían en nosotros: hospitales, bancos, bodegas y entidades de gobierno.">
+    <title>Obras e Ingeniería | Cano Ingeniería</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo/logocanoingenieria.png" alt="Cano Ingeniería Logo" onerror="this.src='https://via.placeholder.com/250x50?text=CANO+INGENIERIA'">
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos & Servicios</a>
+                <a href="obras.html" class="active">Obras</a>
+                <a href="nosotros.html">Quiénes Somos</a>
+                <a href="contacto.html" class="btn btn-primary" style="color:white">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="hero" style="height: 40vh; min-height: 300px; background: linear-gradient(rgba(0, 43, 92, 0.9), rgba(0, 43, 92, 0.8)), url('https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80') center/cover;">
+        <div class="container text-center">
+            <h1 class="fade-in-up">Obras e Ingeniería</h1>
+            <p class="fade-in-up" style="transition-delay: 0.1s; color: rgba(255,255,255,0.8); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+                Más de 500 proyectos ejecutados con éxito avalan nuestra trayectoria y compromiso con la excelencia.
+            </p>
+        </div>
+    </div>
+
+    <!-- Intro Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center fade-in-up" style="max-width: 800px; margin: 0 auto; margin-bottom: 3rem;">
+                <p>Nuestra experiencia acumulada y la eficiencia en el cumplimiento de los más complejos desafíos nos posiciona como una de las empresas más destacadas del sector. Brindamos asistencia a profesionales de la construcción, estudio de proyectos y asesoramiento particular, asegurando la mejor instalación y atención post-venta.</p>
+            </div>
+
+            <!-- Categories Grid -->
+            <div class="grid grid-2">
+                
+                <!-- Bodegas -->
+                <div class="service-card fade-in-up" style="text-align: left; padding: 2rem;">
+                    <h3 style="color: var(--color-primary); border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        <i class="fa-solid fa-wine-bottle" style="margin-right: 10px;"></i>Bodegas y Viñedos
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Bodega Valentín Bianchi y Champagnera</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Bodega Algodón Wine Estates</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Bodega Balbi</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Bodega La Abeja</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Bodega Tebas</li>
+                        <li style="padding: 0.5rem 0;">Bodega Martinez Guido</li>
+                    </ul>
+                </div>
+
+                <!-- Salud -->
+                <div class="service-card fade-in-up" style="transition-delay: 0.1s; text-align: left; padding: 2rem;">
+                    <h3 style="color: var(--color-primary); border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        <i class="fa-solid fa-hospital" style="margin-right: 10px;"></i>Salud y Medicina
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Hospital Español del sur Mendocino</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Hospital Schestakow</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Hospital Enfermeros Argentinos</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">FUESMEN (San Rafael y Mendoza)</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Policlínica Privada y Osecac</li>
+                        <li style="padding: 0.5rem 0;">Fresenium Medical Care</li>
+                    </ul>
+                </div>
+
+                <!-- Entidades Bancarias -->
+                <div class="service-card fade-in-up" style="transition-delay: 0.2s; text-align: left; padding: 2rem;">
+                    <h3 style="color: var(--color-primary); border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        <i class="fa-solid fa-building-columns" style="margin-right: 10px;"></i>Entidades Bancarias
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Banco Nación Argentina</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Banco Hipotecario</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Banco Standard Bank</li>
+                        <li style="padding: 0.5rem 0;">Banco Regional de Cuyo</li>
+                    </ul>
+                </div>
+
+                <!-- Hotelería y Turismo -->
+                <div class="service-card fade-in-up" style="transition-delay: 0.3s; text-align: left; padding: 2rem;">
+                    <h3 style="color: var(--color-primary); border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        <i class="fa-solid fa-hotel" style="margin-right: 10px;"></i>Hotelería y Recreación
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Hotel Tower Inn & Suites y Casino</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Hotel Tierra Mora</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Hotel Tiempo Andino</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Hotel Géminis</li>
+                        <li style="padding: 0.5rem 0;">Oliva Spa</li>
+                    </ul>
+                </div>
+
+                <!-- Gobierno y Educación -->
+                <div class="service-card fade-in-up" style="transition-delay: 0.4s; text-align: left; padding: 2rem;">
+                    <h3 style="color: var(--color-primary); border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        <i class="fa-solid fa-landmark-flag" style="margin-right: 10px;"></i>Gobierno y Educación
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Universidad Nacional de Cuyo</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Municipalidad de San Rafael</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Municipalidad de Malargüe</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Centro de Congresos y Exposiciones</li>
+                        <li style="padding: 0.5rem 0;">Registro Civil y Dirección de Rentas</li>
+                    </ul>
+                </div>
+
+                <!-- Industria y Comercio -->
+                <div class="service-card fade-in-up" style="transition-delay: 0.5s; text-align: left; padding: 2rem;">
+                    <h3 style="color: var(--color-primary); border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        <i class="fa-solid fa-industry" style="margin-right: 10px;"></i>Industria y Comercio
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Usina N°1 TGN</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Ecogas y Edemsa</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">General Plastic y Frutagro</li>
+                        <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--color-bg-alt);">Movistar</li>
+                        <li style="padding: 0.5rem 0;">Los Gallegos Deportes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <p style="margin-bottom: 1.5rem; color: var(--color-text-light);">Y más de 400 clientes particulares y empresas de menor escala.</p>
+                <a href="contacto.html" class="btn btn-primary">Hablemos de tu proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="img/logo/logocanoingenieria.png" alt="Cano Ingeniería Logo" onerror="this.src='https://via.placeholder.com/200x40?text=CANO+INGENIERIA'">
+                    </div>
+                    <p>Expertos en sistemas centrales de aire acondicionado, calefacción y ventilación industrial en la región de Cuyo.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/canoingenieria/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4>Navegación</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos y Servicios</a></li>
+                        <li><a href="obras.html">Obras e Ingeniería</a></li>
+                        <li><a href="nosotros.html">Quiénes Somos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Especialidades</h4>
+                    <ul class="footer-links">
+                        <li><a href="productos.html">Aire Acondicionado</a></li>
+                        <li><a href="productos.html">Calefacción Central</a></li>
+                        <li><a href="productos.html">Ventilación Industrial</a></li>
+                        <li><a href="productos.html">Presurización</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Contacto</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Saavedra 34<br>San Rafael, Mendoza</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:info@cano-ingenieria.com.ar" style="color: #a0aec0;">info@cano-ingenieria.com.ar</a>
+                        </li>
+                    </ul>
+                    <div class="afip-qr mt-3">
+                        <a href="http://qr.afip.gob.ar/?qr=QIV8NJbcqb1hWQjP3FAUmA,," target="_F960AFIPInfo">
+                            <img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" alt="Data Fiscal AFIP">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cano Ingeniería. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
