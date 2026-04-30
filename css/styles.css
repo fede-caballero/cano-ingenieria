@@ -282,7 +282,7 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
   display: flex;
   align-items: center;
   position: relative;
-  background: linear-gradient(rgba(0, 43, 92, 0.8), rgba(0, 43, 92, 0.6)), url('https://images.unsplash.com/photo-1558904541-efa843a96f09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 43, 92, 0.8), rgba(0, 43, 92, 0.6)), url('../img/hero/hero_main.png') center/cover no-repeat fixed;
   color: white;
   padding-top: 80px; /* Offset for header */
 }
